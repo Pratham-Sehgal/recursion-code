@@ -18,6 +18,6 @@ class Solution {
 
             ds.remove(ds.size() - 1);//removing of arr[idx] from ds
         }
-        findComb(idx+1,arr,target,ans,ds);//picking the next index
+        findComb(idx+1,arr,target,ans,ds);//picking the next index 
     }
 }
